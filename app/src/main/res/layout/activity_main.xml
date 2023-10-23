@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:background="@color/teal_200"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="240dp"
+        android:background="@color/design_default_color_error"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:background="@color/design_default_color_error"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="240dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@color/design_default_color_error"
+        android:layout_marginBottom="70dp"/>
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Alfian Davi Aghna"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</FrameLayout>
